@@ -1,0 +1,17 @@
+#include<stdio.h>
+#define size 5
+int main () {
+    int i;
+    int student_makes[size];
+    for(i=0;i<size;i++)
+    {
+        printf("ENTER THE MARKES %d OF SUBJECT\n",i+1);
+scanf("%d",&student_makes[i]);
+    }
+    printf("\ninput your data");
+    for(i=0;i<size;i++){
+        printf("\nTHE MARKES %d SUBJECT IS=%d\n",i,student_makes[i]);
+    }
+
+    getch();
+}
